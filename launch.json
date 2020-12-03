@@ -1,0 +1,21 @@
+"version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "reAttach": true,
+      "name": "Launch Vue App",
+    //   "firefoxExecutable": "/home/michael/firefox-dev/firefox",
+      "url": "http://localhost:8081/",
+      "webRoot": "${workspaceFolder}/src",
+      "pathMappings": [
+        {
+          "url": "webpack:///src/",
+          "path": "${webRoot}"
+        }
+      ],
+      "skipFiles": [ // optional
+        "${workspaceFolder}/node_modules/**"
+      ]
+    }
+  ]
