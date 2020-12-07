@@ -1,7 +1,6 @@
 <template>
   <div>
     <TrainTable></TrainTable>
-    <AlgoTable></AlgoTable>
     <Heatmap></Heatmap>
     <Metrics></Metrics>
   </div>

@@ -39,11 +39,6 @@ export default {
           to: "/traintable",
         },
         {
-          title: "2",
-          // icon: "mdi-grid",
-          to: "/algotable",
-        },
-        {
           title: "3",
           // icon: "mdi-grid",
           to: "/heatmap",

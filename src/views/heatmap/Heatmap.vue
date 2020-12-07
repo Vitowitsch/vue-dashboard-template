@@ -60,7 +60,6 @@
         </center>
         <Heatmap :heatmapOptions="options"></Heatmap>
         <InputFeatures />
-        <OutputFeatures />
       </v-card>
     </v-container>
   </div>
